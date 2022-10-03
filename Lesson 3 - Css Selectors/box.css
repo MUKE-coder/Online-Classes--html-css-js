@@ -1,0 +1,9 @@
+/* BROWSER REST */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.profile-image {
+  width: 100px;
+}
