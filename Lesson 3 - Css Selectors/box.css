@@ -3,7 +3,61 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.profile-image {
-  width: 100px;
+.profile-card {
+  width: 400px;
+  border: 2px solid blue;
+  height: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+.card-top,
+.card-bottom {
+  background-color: blue;
+}
+.card-top {
+  height: 140px;
+}
+
+/* .card-bottom img {
+  width: 40px;
+  height: 40px;
+} */
+.icon {
+  width: 40px;
+  height: 40px;
+}
+
+.profile-image img {
+  width: 150px;
+  border-radius: 50%;
+  border: 10px solid white;
+  /* margin-left: 120px; */
+  margin-top: -80px;
+}
+.name {
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+.city {
+  font-size: 23px;
+  margin-bottom: 20px;
+}
+.btn {
+  padding: 14px 24px;
+  font-size: 20px;
+  margin: 18px 10px;
+  cursor: pointer;
+  border: 0px;
+  color: white;
+}
+.follow-btn {
+  background-color: green;
+}
+.send-btn {
+  background-color: blue;
+}
+.description {
+  margin: 20px 0;
 }
